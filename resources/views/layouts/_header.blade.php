@@ -29,6 +29,9 @@
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
+                                    <a href="{{ route('cart.index') }}"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                                </li>
+                                <li>
                                     <a href="{{ route('user_addresses.index') }}">收货地址</a>
                                 </li>
                                 <li>
